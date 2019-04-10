@@ -13,4 +13,4 @@ services:
   web:
     image: httpd
     volumes:
-      - ./html:/usr/local/apache2/htdocs/
+      - /home/docker/Udemy-Docker-Course-Study/compose-sample-3/html:/usr/local/apache2/htdocs/
